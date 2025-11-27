@@ -1,6 +1,6 @@
 [project]
 name = "ahmaedinfo"
-version = "1.1.7"
+version = "1.1.8"
 description = "AHMAEDINFO API Wrapper"
 readme = "README.md"
 authors = [
@@ -21,22 +21,16 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 
-# 🔥 روابط مهمة تظهر في PyPI
 [project.urls]
 Homepage = "https://github.com/Ahmeadinfo/Ahmaedinfo"
 Repository = "https://github.com/Ahmeadinfo/Ahmaedinfo"
 Issues = "https://github.com/Ahmeadinfo/Ahmaedinfo/issues"
 
-# نظام البناء
+
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
-# إعدادات setuptools
-[tool.setuptools]
-packages = ["ahmaedinfo"]
-
-# جعل setuptools يستطيع العثور على الباكدج
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["ahmaedinfo"]
