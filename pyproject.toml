@@ -2,15 +2,41 @@
 name = "ahmaedinfo"
 version = "1.1.7"
 description = "AHMAEDINFO API Wrapper"
+readme = "README.md"
 authors = [
-  { name = "Ahmed" }
+    { name = "Ahmed" }
 ]
-dependencies = ["requests"]
+license = { text = "MIT" }
 requires-python = ">=3.8"
+dependencies = ["requests"]
 
+keywords = ["api", "wrapper", "ahmaedinfo", "chatbot", "ai"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+# 🔥 روابط مهمة تظهر في PyPI
+[project.urls]
+Homepage = "https://github.com/Ahmeadinfo/Ahmaedinfo"
+Repository = "https://github.com/Ahmeadinfo/Ahmaedinfo"
+Issues = "https://github.com/Ahmeadinfo/Ahmaedinfo/issues"
+
+# نظام البناء
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
+# إعدادات setuptools
 [tool.setuptools]
 packages = ["ahmaedinfo"]
+
+# جعل setuptools يستطيع العثور على الباكدج
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ahmaedinfo"]
