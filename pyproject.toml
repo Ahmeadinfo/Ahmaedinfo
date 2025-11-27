@@ -1,6 +1,6 @@
 [project]
 name = "ahmaedinfo"
-version = "1.0.8"
+version = "1.0.9"
 description = "AHMAEDINFO API Wrapper"
 authors = [
     { name = "Ahmed" }
