@@ -1,21 +1,16 @@
 [project]
 name = "ahmaedinfo"
-version = "1.1.5"
-description = "A simple API wrapper by Ahmed."
+version = "1.1.6"
+description = "AHMAEDINFO API Wrapper"
 authors = [
     { name = "Ahmed" }
 ]
-readme = "README.md"
-requires-python = ">=3.8"
 dependencies = ["requests"]
-
-[project.urls]
-Homepage = "https://github.com/Ahmeadinfo/Ahmaedinfo"
-Repository = "https://github.com/Ahmeadinfo/Ahmaedinfo"
+requires-python = ">=3.8"
 
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools.packages.find]
-where = ["."]
+[tool.setuptools]
+packages = ["ahmaedinfo"]
